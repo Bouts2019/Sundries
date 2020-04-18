@@ -1,0 +1,16 @@
+/**
+@author: 318102020436
+@created: 2020/04/07 16:51
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px/1.5 "Microsoft YaHei", Arial,PingfangSC,Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,sans-serif;
+  user-select: none;
+  background-color: rgba(212, 212, 212, 1);
+}
+ul {
+  list-style-type: none;
+}

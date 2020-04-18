@@ -1,0 +1,308 @@
+/**
+@author: 318102020436
+@created: 2020/04/07 16:51
+ */
+.resume {
+  margin: 10px auto;
+  height: 990px;
+  width: 700px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+.head-wrapper {
+  width: 100%;
+  background-color: rgba(191, 191, 191, 1);
+}
+.head {
+  margin: 0 auto;
+  height: 152px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#avatar {
+  border-radius: 50% 50%;
+  width: 120px;
+  height: 120px;
+}
+.about {
+  display: flex;
+  height: 120px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#name {
+  font-size: 28px;
+}
+#intention {
+  font-size: 16px;
+}
+
+.info {
+  list-style-type: none;
+  font-size: 18px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#phone::before {
+  content: '';
+  background-image: url('../img/phone.svg');
+  display: inline-block;
+  margin-right: 10px;
+  background-size: 14px 14px;
+  width: 14px;
+  height: 14px;
+}
+#email::before {
+  content: '';
+  background-image: url('../img/email.svg');
+  display: inline-block;
+  margin-right: 10px;
+  background-size: 14px 14px;
+  width: 14px;
+  height: 14px;
+}
+#position::before {
+  content: '';
+  background-image: url('../img/location.svg');
+  display: inline-block;
+  margin-right: 10px;
+  background-size: 14px 14px;
+  width: 14px;
+  height: 14px;
+}
+
+.content-wrapper {
+  height: 838px;
+}
+
+.content {
+  margin: 24px auto;
+  width: 600px;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+.base-info {
+  width: 280px;
+  margin-top: -8px;
+}
+.base-info thead th {
+  width: 100px;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.base-info thead th::before {
+  content: '';
+  background-image: url('../img/businessman.png');
+  background-size: 24px 24px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.base-info tbody td {
+  font-size: 14px;
+}
+.base-info tbody tr td:nth-child(odd) {
+  width: 60px;
+  text-align-last: justify;
+}
+
+.self-summary {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.self-summary ul{
+  margin-top: 10px;
+}
+.self-summary ul li {
+  height: 24px;
+}
+.self-summary h2 {
+  font-size: 24px;
+}
+.self-summary h2::before {
+  content: '';
+  background-image: url('../img/idea.ico');
+  display: inline-block;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.second-part {
+  margin-top: 10px;
+  display: flex;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  height: 400px;
+}
+
+.edu-bgc {
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  text-align: left;
+  width: 280px;
+  height: 110px;
+  padding-bottom: 20px;
+}
+.edu-bgc tr th {
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+.edu-bgc tr th::before {
+  content: '';
+  background-image: url('../img/graduation.svg');
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.skills {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.skills tr th {
+  font-size: 24px;
+  text-align: left;
+}
+.skills tr th::before {
+  content: '';
+  background-image: url('../img/setting.svg');
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.skills tr td:nth-child(1) {
+  width: 100px;
+}
+
+.exp tr th {
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.exp tr th::before {
+  content: '';
+  background-image: url('../img/handbag.svg');
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.exp td:nth-child(1) {
+  vertical-align: top;
+  width: 100px;
+}
+.exp td:nth-child(2) {
+  vertical-align: top;
+  width: 200px;
+}
+.exp tr td span {
+  padding-left: 30px;
+  display: block;
+  position: relative;
+}
+.exp tr td span:before {
+  content: '●';
+  display: inline-block;
+  position:absolute;
+  left: 0;
+}
+
+.third-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.hobby ul {
+  margin-top: 5px;
+}
+.hobby li {
+  padding-left: 10px;
+  height: 25px;
+}
+.hobby h2 {
+  font-size: 24px;
+}
+.hobby h2::before {
+  content: '';
+  background-image: url('../img/heart.svg');
+  display: inline-block;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.hobby li::before {
+  position: relative;
+  left: -10px;
+  content: '●';
+}
+
+.prize {
+  width: 300px;
+}
+.prize h2 {
+  font-size: 24px;
+}
+.prize h2::before {
+  content: '';
+  background-image: url("../img/award.ico");
+  display: inline-block;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.prize ul {
+  margin-top: 5px;
+}
+.prize ul li {
+  padding-left: 10px;
+  height: 25px;
+}
+.prize li::before {
+  content: '●';
+  position: relative;
+  left: -10px;
+}
+
+
+.progress {
+  width: 150px;
+  height: 10px;
+  background-color: rgba(212, 212, 212, 1);
+}
+.value {
+  background-color: rgba(67, 67, 67, 1);
+  height: 10px;
+  width: 140px;
+}
